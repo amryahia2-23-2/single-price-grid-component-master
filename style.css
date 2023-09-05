@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+
+}
+
+body {
+    background-color: var(--Light-Gray);
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 350px;
+    height: fit-content;
+    box-shadow: 0px 8px 23px hsl(218, 22%, 67%);
+    border-radius: 10px;
+}
+
+.card-1 {
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.content {}
+
+.card-1 h3 {
+    color: var(--Cyan);
+    margin-bottom: 10px;
+
+
+}
+
+.card-1 p:first-of-type {
+    color: var(--Bright-Yellow);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-1 p:last-of-type {
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.card-2 {
+    background-color: var(--Cyan);
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-2 h5 {
+    color: var(--Light-Gray);
+    margin-bottom: 20px;
+}
+
+.card-2 p:first-of-type {
+    color: var(--Light-Gray);
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-2 span {
+    color: var(--Light-Gray);
+    font-size: 15px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.card-2 p:last-of-type {
+    font-size: 13px;
+    color: var(--Light-Gray);
+    margin-bottom: 10px;
+}
+
+.card-2 button {
+    padding: 10px;
+    color: var(--Light-Gray);
+    background-color: var(--Bright-Yellow);
+    font-weight: 400;
+    width: 100%;
+    border: transparent;
+    outline: transparent;
+    border-radius: 6px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 20px hsl(220, 2%, 48%);
+}
+
+.card-3 {
+    background-color: hsl(179deg 52.54% 48.6%);
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-3 h4 {
+    color: var(--Light-Gray);
+    margin-bottom: 20px;
+}
+
+.card-3 p {
+    font-size: 13px;
+    color: var(--Light-Gray);
+    line-height: 1.7;
+    opacity: 0.80;
+    padding-right: 50px;
+}
